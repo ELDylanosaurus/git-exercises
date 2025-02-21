@@ -1,0 +1,8 @@
+1. Man möchte wissen, was man in den letzten 2 Wochen gemacht hat:
+git log --author="Dylan Bellomusto" --since="2 weeks ago" --pretty=format:"%h %s"
+
+2. Man möchte wissen, was die anderen neu gemacht haben und auf den main branch gepushed haben:
+git log --stat --since="1 month ago" -- main.c
+
+3. Man möchte sich bessere Übersicht über die branches verschaffen:
+git log --graph --all --decorate --oneline

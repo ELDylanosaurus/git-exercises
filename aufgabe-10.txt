@@ -1,0 +1,1 @@
+git mv ist besser, weil es von Git erkannt wird und als renamed angezeigt wird, im Gegensatz wird mit mv eine komplett neue Datei erstellt.
